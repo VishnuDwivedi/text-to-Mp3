@@ -1,0 +1,7 @@
+import os
+ 
+from gtts import gTTS
+ttmp3 = gTTS("Hello World", "en")
+ttmp3.save("hello.mp3")
+ 
+os.startfile("hello.mp3")
